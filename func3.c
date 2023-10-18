@@ -40,3 +40,18 @@ void mod_nodes(stack_t **stack, unsigned int line_number)
 	free((*stack)->prev);
 	(*stack)->prev = NULL;
 }
+
+int len_chars(FILE *file) {
+    int count = 0;
+    int ch;
+
+    if (file == NULL) {
+        return -1; 
+    }
+
+    while ((ch = fgetc(file)) != EOF) {
+        count++;
+    }
+
+    return count;
+}
