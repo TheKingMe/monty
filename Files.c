@@ -38,6 +38,7 @@ void find_func(char *opcode, char *value, int ln, int format)
 		{"nop", nop},
 		{"swap", swap_nodes},
 		{"add", add_nodes},
+		{"sub", sub_nodes},
 		{"div", div_nodes},
 		{"mul", mul_nodes},
 		{"mod", mod_nodes},
