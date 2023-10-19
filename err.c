@@ -78,7 +78,6 @@ void more_err(int err_code, ...)
 /**
  * string_err - handles errors.
  * @err_code: The error codes are the following:
-
  */
 void string_err(int err_code, ...)
 {
